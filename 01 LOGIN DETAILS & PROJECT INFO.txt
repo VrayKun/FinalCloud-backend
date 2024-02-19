@@ -1,0 +1,33 @@
+**Log on to codeastro.com for more projects!***
+
+
+**Developed by Prajwal Rai**
+
+
+**Check the Website's Post Page for all the Installation Instructions**
+
+
+---Admin Login Details---
+
+Email   : admin@mail.com
+Password: codeastro.com
+
+--Customer Login Details---
+Email   : customer@mail.com
+Password: codeastro.com
+
+
+**Check the Website's Post Page for all the Installation Instructions**
+
+Open the project folder, 
+- check for the env file, and update the database credentials.
+- Create a MySQL database with the name provided inside the env file.
+- Install node packages: npm install
+- Install the composer dependencies: composer install
+- Link the storage: php artisan storage:link
+- Now migrate the tables: php artisan migrate
+- Run seeder: php artisan db:seed
+- Then generate the key: php artisan key:generate
+- And finally, run the project: php artisan serve
+It will start the application and give you a URL.
+
